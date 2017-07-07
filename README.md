@@ -30,14 +30,5 @@ Because of the nature of mobile data, there are bound to be data losses in the e
 algorithm should take this into account when figuring out sessions and work with a minimum 
 loss strategy. 
 A brief description of some of the fields of the dump is given below: 
- 
-  
-Field        Description  
-ai5          One­way hash of a particular device identifier 
-sdkv         Mobile SDK version 
-event        Type of event on the mobile device (GGSTART or GGSTOP) 
-game_id      Unique Identifier for a particular game 
-timestamp    Time when the request arrived on server (GMT) 
-ts           Epoch timestamp value of the device 
 
 Do think about scaling of your approach to a traffic 100x of the data set provided. 
